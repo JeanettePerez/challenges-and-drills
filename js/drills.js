@@ -25,3 +25,7 @@ function isMultipleOfFive(input) {
 function isThree(input) {
     return input === 3;
 }
+
+function isMultipleOfThree(input) {
+
+}
