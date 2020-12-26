@@ -138,4 +138,35 @@ function divide(a, b) {
 }
 console.log(divide(10, 2));
 console.log(divide(20, 2));
+
+
+function remainder(a, b) {
+    return a % b;
+}
+
+function cube(n) {
+    return n * n * n;
+}
+
+function squareRoot(n) {
+    return Math.sqrt(n)
+
+}
+
+function cubeRoot(n) {
+    return Math.cbrt(n);
+}
+
+function not(input) {
+    return !(input);
+}
+
+function and(predicate1, predicate2) {
+    return predicate1 && predicate2;
+}
+
+function or(predicate1, predicate2) {
+    predicate1 || predicate2;
+}
 // Simple Function Drills
+
